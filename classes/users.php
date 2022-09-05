@@ -33,6 +33,9 @@ class users {
    public function setType($_type){
 
       $this -> type = $_type;
+      if($_type === 'Utente registrato'){
+
+      }
 
    }
 
